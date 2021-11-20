@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:lightblue
+}
+#page{
+    background-image: url(https://images.pexels.com/photos/45718/pexels-photo-45718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+header h1{
+    font-family: 'Estonia', cursive;
+    text-align: center;
+    font-size: 65px;
+}
+.container{
+    
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 27%;
+    border: 2px solid black;
+}
+
+#btn{
+    
+        border-radius: 12px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 40%;
+    
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    height: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#link:hover{
+    color: red;
+}
+
+.para{
+    width: 650px;
+    height: 700px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: white;
+    font-size: 16px;
+    
+}
+.para::first-letter{
+    font-size: 300%;
+    color: red;
+}
+
+.inside{
+    color:darkgray;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+#cont{
+    padding: 50px;
+    margin-left: 22%;
+    background-image: url(https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.end{
+    text-align: center;
+}
+
+#nbtn{
+    
+    border-radius: 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+
+}
+#nbtn:hover{
+    height: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#home_btn{
+    text-decoration: none;
+    color: black;
+}
+#home_btn:hover{
+    color: red;
+}
